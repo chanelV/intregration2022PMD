@@ -35,7 +35,7 @@
                 </section>
                 <section class="container-grid">
                     <div class="bloc border-letf-top bloc-color">Lun</div>   
-                    <div class="bloc bloc2 bloc-color">Mar</div>   
+                    <div class="bloc bloc2 bloc-color"> <p>Mar</p></div>   
                     <div class="bloc bloc3 bloc-color">Mer</div>   
                     <div class="bloc bloc4 bloc-color">Jeu</div>   
                     <div class="bloc bloc5 bloc-color">Ven</div>   
@@ -160,23 +160,57 @@
                         <span class="centre">DAY OFF Profite petit Koyien !</span>
                     </div>
             </section>
-            <aside>
+            <aside class="btn-complet">
                 <a href="#">Journée completée</a>
             </aside>
             <!---------------jaude de pogression ---------------------->
+            
             <section class="bloc-jauge">
-                <h3 class="jauge">Apport sur la semaine</h3>
-                <section class="bloc-progress">
-                    <section class="bloc-progress1">
+                <aside class="width-jaug">
+                    <h3 class="jauge">Apport sur la semaine</h3>
+                    
+                    <section class="bloc-progress">
+                        <section class="bloc-progress1">
+                            <section class="circular">
+                                <div class="inner"></div>
+                                <div class="number">
+                                    <p>Calories <span class="value">480kcal/<br>13140kal </span></p>
+                                </div>
+                                <div class="cercle_gris"></div>
+                                <div class="circle">
+                                    <div class="cercle_gris"></div>
+                                    <div class="bar value-cal">
+                                    <div class="progress"></div>
+                                    </div>
+                                    <div class="bar right">
+                                        <div class="progress"></div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="circular">
+                                <div class="inner"></div>
+                                <div class="number"><p>Poteines <span class="value">70g/1638g</span></p></div>
+                                <div class="cercle_gris"></div>
+                                <div class="circle">
+                                    <div class="cercle_gris"></div>
+                                    <div class="bar value-prot">
+                                    <div class="progress"></div>
+                                    </div>
+                                    <div class="bar right">
+                                        <div class="progress"></div>
+                                    </div>
+                                </div>
+                            </section>
+                        </section>
+                    </section>
+                    <section class="bloc-progress2">
                         <section class="circular">
                             <div class="inner"></div>
-                            <div class="number">
-                                <p>Calories <span class="value">480kcal/<br>13140kal </span></p>
-                            </div>
+                            <div class="number"><p>Glucides <span class="value">332g/658g</span></p></div>
                             <div class="cercle_gris"></div>
                             <div class="circle">
                                 <div class="cercle_gris"></div>
-                                <div class="bar value-cal">
+                                <div class="bar value-gluc">
                                 <div class="progress"></div>
                                 </div>
                                 <div class="bar right">
@@ -186,11 +220,25 @@
                         </section>
                         <section class="circular">
                             <div class="inner"></div>
-                            <div class="number"><p>Poteines <span class="value">70g/1638g</span></p></div>
+                            <div class="number"><p>Lipides <span class="value"> 52g/441g</span></p></div>
                             <div class="cercle_gris"></div>
                             <div class="circle">
                                 <div class="cercle_gris"></div>
-                                <div class="bar value-prot">
+                                <div class="bar value-lip">
+                                <div class="progress"></div>
+                                </div>
+                                <div class="bar right">
+                                    <div class="progress"></div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="circular">
+                            <div class="inner"></div>
+                            <div class="number"><p>Fibre <span class="value">35g/175g</span></p></div>
+                            <div class="cercle_gris"></div>
+                            <div class="circle">
+                                <div class="cercle_gris"></div>
+                                <div class="bar value-fibr">
                                 <div class="progress"></div>
                                 </div>
                                 <div class="bar right">
@@ -199,51 +247,7 @@
                             </div>
                         </section>
                     </section>
-                </section>
-                <section class="bloc-progress2">
-                    <section class="circular">
-                        <div class="inner"></div>
-                        <div class="number"><p>Glucides <span class="value">332g/658g</span></p></div>
-                        <div class="cercle_gris"></div>
-                        <div class="circle">
-                            <div class="cercle_gris"></div>
-                            <div class="bar value-gluc">
-                            <div class="progress"></div>
-                            </div>
-                            <div class="bar right">
-                                <div class="progress"></div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="circular">
-                        <div class="inner"></div>
-                        <div class="number"><p>Lipides <span class="value"> 52g/441g</span></p></div>
-                        <div class="cercle_gris"></div>
-                        <div class="circle">
-                            <div class="cercle_gris"></div>
-                            <div class="bar value-lip">
-                            <div class="progress"></div>
-                            </div>
-                            <div class="bar right">
-                                <div class="progress"></div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="circular">
-                        <div class="inner"></div>
-                        <div class="number"><p>Fibre <span class="value">35g/175g</span></p></div>
-                        <div class="cercle_gris"></div>
-                        <div class="circle">
-                            <div class="cercle_gris"></div>
-                            <div class="bar value-fibr">
-                            <div class="progress"></div>
-                            </div>
-                            <div class="bar right">
-                                <div class="progress"></div>
-                            </div>
-                        </div>
-                    </section>
-                </section>
+                </aside>
             </section>
         </section>
         <footer>
@@ -263,6 +267,7 @@
                 </li>
             </ul>
         </footer>
+    </div>
     </body>
 </html>
     
