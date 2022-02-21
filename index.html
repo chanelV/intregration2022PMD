@@ -3,13 +3,13 @@
     <head>
         <meta charset="utf-8">
         <title>KOY</title>
-        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <div class="container">
             <header class="header"> <!-- header-->
-                <na>
+                <nav class="mobile-nav">
                     <ul class="head color-orange">
                         <li>
                             <a><img src="images/profil.svg"/></a>
@@ -21,7 +21,45 @@
                             <a><img src="images/community.svg"/></a>
                         </li>
                     </ul>
-                </na>
+                </nav>
+                <div id="menu">
+                    <nav>
+                       <ul>
+                          <li>
+                             <a href="#">
+                                <span>Accueil</span>
+                             </a>
+                          </li>
+                          <li>
+                             <a href="#">
+                                <span>Calendar</span>
+                             </a>
+                          </li>
+                          <li>
+                             <a href="#">
+                                <span>Marmite</span>
+                             </a>
+                          </li>
+                          <li>
+                             <a href="#">
+                                <span>Maps</span>
+                             </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                               <span>Community</span>
+                            </a>
+                         </li>
+                         <li>
+                            <a href="#">
+                               <span>Profil</span>
+                            </a>
+                         </li>
+                 
+                       </ul>
+                    </nav>
+                </div>
+
             </header>
             <main> 
                 <section class="bloc-date"> <!-- Bloc date-->
@@ -32,6 +70,11 @@
                             <li><a><img src="images/icon-rigth.svg"/></a></li>
                         </ul>
                     </article>
+                </section>
+                <section class="text-intro">
+                    <p>Organiser votre semaine et trouver des restaurants vous proposant des plats sains tout en vous 
+                        informons des apports nutritifs journaliers et hebdomadaires.
+                    </p>
                 </section>
                 <section class="container-grid">
                     <div class="bloc border-letf-top bloc-color">Lun</div>   
@@ -70,7 +113,6 @@
                             <img src="images/icon-heur.svg"/>
                             <p>20 min</p>
                         </div>
-                        <a href="#" class="mod-plat">Modifier </a>
                     </div>    
                     <div class="bloc justify-btn">
                         <img src="images/btn-ajout.svg"/>
@@ -117,7 +159,6 @@
                             <img src="images/icon-heur.svg"/>
                             <p>20 min</p>
                         </div>
-                        <a href="#" class="mod-plat">Modifier </a>
                     </div>   
                     <div class="bloc justify-items">
                         <p>Bo bun</p>
@@ -140,7 +181,6 @@
                             <img src="images/icon-heur.svg"/>
                             <p>20 min</p>
                         </div>
-                        <a href="#" class="mod-plat">Modifier </a>
                     </div>
                     <div class="bloc justify-items">
                         <p>Bo bun </p>
@@ -161,10 +201,9 @@
                     </div>
             </section>
             <aside class="btn-complet">
-                <a href="#">Journée completée</a>
+                <a class href="#">Ajouter au Calendrier</a>
             </aside>
             <!---------------jaude de pogression ---------------------->
-            
             <section class="bloc-jauge">
                 <aside class="width-jaug">
                     <h3 class="jauge">Apport sur la semaine</h3>
@@ -251,7 +290,7 @@
             </section>
         </section>
         <footer>
-            <ul class="head clr-orang-foot">
+            <ul class="head footer-m clr-orang-foot">
                 <li>
                     <a>
                         <img src="images/marmite.svg"/>
@@ -265,6 +304,11 @@
                     </a>
                     <span class="name-icon">Cuisine</span>
                 </li>
+            </ul>
+            <ul class="head  footer-d clr-orang-foot">
+                <li>
+                    Copyright@2022 by koy | Projet Hetic
+                </li>               
             </ul>
         </footer>
     </div>
